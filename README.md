@@ -1,7 +1,7 @@
 WebGLIOS
 ========
 
-demo for web gl on ios
+App for WebGL Support on iOS, it base on this post: http://www.kmlsystems.com/developer/webgl-on-the-ipad/
 
 Requirement:
  1. OS X 10.8.5 or above
