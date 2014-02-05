@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38793ECD18A21B9700DEE57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38793ECC18A21B9700DEE57E /* Foundation.framework */; };
+		38793ECF18A21B9700DEE57E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38793ECE18A21B9700DEE57E /* CoreGraphics.framework */; };
+		38793ED118A21B9700DEE57E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38793ED018A21B9700DEE57E /* UIKit.framework */; };
+		38793ED718A21B9700DEE57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38793ED518A21B9700DEE57E /* InfoPlist.strings */; };
+		38793ED918A21B9700DEE57E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38793ED818A21B9700DEE57E /* main.m */; };
+		38793EDD18A21B9700DEE57E /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38793EDC18A21B9700DEE57E /* GLAppDelegate.m */; };
+		38793EDF18A21B9700DEE57E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38793EDE18A21B9700DEE57E /* Images.xcassets */; };
+		38793EE618A21B9700DEE57E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38793EE518A21B9700DEE57E /* XCTest.framework */; };
+		38793EE718A21B9700DEE57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38793ECC18A21B9700DEE57E /* Foundation.framework */; };
+		38793EE818A21B9700DEE57E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38793ED018A21B9700DEE57E /* UIKit.framework */; };
+		38793EF018A21B9700DEE57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38793EEE18A21B9700DEE57E /* InfoPlist.strings */; };
+		38793EF218A21B9700DEE57E /* WebGLIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38793EF118A21B9700DEE57E /* WebGLIOSTests.m */; };
+		38793EFE18A21BCB00DEE57E /* GLMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38793EFC18A21BCB00DEE57E /* GLMainVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38793EFF18A21BCB00DEE57E /* GLMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38793EFD18A21BCB00DEE57E /* GLMainVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38793EE918A21B9700DEE57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38793EC118A21B9700DEE57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38793EC818A21B9700DEE57E;
+			remoteInfo = WebGLIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38793EC918A21B9700DEE57E /* WebGLIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGLIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38793ECC18A21B9700DEE57E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38793ECE18A21B9700DEE57E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38793ED018A21B9700DEE57E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38793ED418A21B9700DEE57E /* WebGLIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebGLIOS-Info.plist"; sourceTree = "<group>"; };
+		38793ED618A21B9700DEE57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38793ED818A21B9700DEE57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38793EDA18A21B9700DEE57E /* WebGLIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebGLIOS-Prefix.pch"; sourceTree = "<group>"; };
+		38793EDB18A21B9700DEE57E /* GLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
+		38793EDC18A21B9700DEE57E /* GLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
+		38793EDE18A21B9700DEE57E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38793EE418A21B9700DEE57E /* WebGLIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebGLIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38793EE518A21B9700DEE57E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		38793EED18A21B9700DEE57E /* WebGLIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebGLIOSTests-Info.plist"; sourceTree = "<group>"; };
+		38793EEF18A21B9700DEE57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38793EF118A21B9700DEE57E /* WebGLIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebGLIOSTests.m; sourceTree = "<group>"; };
+		38793EFB18A21BCB00DEE57E /* GLMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMainVC.h; sourceTree = "<group>"; };
+		38793EFC18A21BCB00DEE57E /* GLMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMainVC.m; sourceTree = "<group>"; };
+		38793EFD18A21BCB00DEE57E /* GLMainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLMainVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38793EC618A21B9700DEE57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38793ECF18A21B9700DEE57E /* CoreGraphics.framework in Frameworks */,
+				38793ED118A21B9700DEE57E /* UIKit.framework in Frameworks */,
+				38793ECD18A21B9700DEE57E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38793EE118A21B9700DEE57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38793EE618A21B9700DEE57E /* XCTest.framework in Frameworks */,
+				38793EE818A21B9700DEE57E /* UIKit.framework in Frameworks */,
+				38793EE718A21B9700DEE57E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38793EC018A21B9700DEE57E = {
+			isa = PBXGroup;
+			children = (
+				38793ED218A21B9700DEE57E /* WebGLIOS */,
+				38793EEB18A21B9700DEE57E /* WebGLIOSTests */,
+				38793ECB18A21B9700DEE57E /* Frameworks */,
+				38793ECA18A21B9700DEE57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38793ECA18A21B9700DEE57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38793EC918A21B9700DEE57E /* WebGLIOS.app */,
+				38793EE418A21B9700DEE57E /* WebGLIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38793ECB18A21B9700DEE57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38793ECC18A21B9700DEE57E /* Foundation.framework */,
+				38793ECE18A21B9700DEE57E /* CoreGraphics.framework */,
+				38793ED018A21B9700DEE57E /* UIKit.framework */,
+				38793EE518A21B9700DEE57E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38793ED218A21B9700DEE57E /* WebGLIOS */ = {
+			isa = PBXGroup;
+			children = (
+				38793EDB18A21B9700DEE57E /* GLAppDelegate.h */,
+				38793EDC18A21B9700DEE57E /* GLAppDelegate.m */,
+				38793EFB18A21BCB00DEE57E /* GLMainVC.h */,
+				38793EFC18A21BCB00DEE57E /* GLMainVC.m */,
+				38793EFD18A21BCB00DEE57E /* GLMainVC.xib */,
+				38793EDE18A21B9700DEE57E /* Images.xcassets */,
+				38793ED318A21B9700DEE57E /* Supporting Files */,
+			);
+			path = WebGLIOS;
+			sourceTree = "<group>";
+		};
+		38793ED318A21B9700DEE57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38793ED418A21B9700DEE57E /* WebGLIOS-Info.plist */,
+				38793ED518A21B9700DEE57E /* InfoPlist.strings */,
+				38793ED818A21B9700DEE57E /* main.m */,
+				38793EDA18A21B9700DEE57E /* WebGLIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38793EEB18A21B9700DEE57E /* WebGLIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				38793EF118A21B9700DEE57E /* WebGLIOSTests.m */,
+				38793EEC18A21B9700DEE57E /* Supporting Files */,
+			);
+			path = WebGLIOSTests;
+			sourceTree = "<group>";
+		};
+		38793EEC18A21B9700DEE57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38793EED18A21B9700DEE57E /* WebGLIOSTests-Info.plist */,
+				38793EEE18A21B9700DEE57E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38793EC818A21B9700DEE57E /* WebGLIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38793EF518A21B9700DEE57E /* Build configuration list for PBXNativeTarget "WebGLIOS" */;
+			buildPhases = (
+				38793EC518A21B9700DEE57E /* Sources */,
+				38793EC618A21B9700DEE57E /* Frameworks */,
+				38793EC718A21B9700DEE57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebGLIOS;
+			productName = WebGLIOS;
+			productReference = 38793EC918A21B9700DEE57E /* WebGLIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38793EE318A21B9700DEE57E /* WebGLIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38793EF818A21B9700DEE57E /* Build configuration list for PBXNativeTarget "WebGLIOSTests" */;
+			buildPhases = (
+				38793EE018A21B9700DEE57E /* Sources */,
+				38793EE118A21B9700DEE57E /* Frameworks */,
+				38793EE218A21B9700DEE57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38793EEA18A21B9700DEE57E /* PBXTargetDependency */,
+			);
+			name = WebGLIOSTests;
+			productName = WebGLIOSTests;
+			productReference = 38793EE418A21B9700DEE57E /* WebGLIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38793EC118A21B9700DEE57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = viki;
+				TargetAttributes = {
+					38793EE318A21B9700DEE57E = {
+						TestTargetID = 38793EC818A21B9700DEE57E;
+					};
+				};
+			};
+			buildConfigurationList = 38793EC418A21B9700DEE57E /* Build configuration list for PBXProject "WebGLIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38793EC018A21B9700DEE57E;
+			productRefGroup = 38793ECA18A21B9700DEE57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38793EC818A21B9700DEE57E /* WebGLIOS */,
+				38793EE318A21B9700DEE57E /* WebGLIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38793EC718A21B9700DEE57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38793ED718A21B9700DEE57E /* InfoPlist.strings in Resources */,
+				38793EFF18A21BCB00DEE57E /* GLMainVC.xib in Resources */,
+				38793EDF18A21B9700DEE57E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38793EE218A21B9700DEE57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38793EF018A21B9700DEE57E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38793EC518A21B9700DEE57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38793ED918A21B9700DEE57E /* main.m in Sources */,
+				38793EFE18A21BCB00DEE57E /* GLMainVC.m in Sources */,
+				38793EDD18A21B9700DEE57E /* GLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38793EE018A21B9700DEE57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38793EF218A21B9700DEE57E /* WebGLIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38793EEA18A21B9700DEE57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38793EC818A21B9700DEE57E /* WebGLIOS */;
+			targetProxy = 38793EE918A21B9700DEE57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38793ED518A21B9700DEE57E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38793ED618A21B9700DEE57E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38793EEE18A21B9700DEE57E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38793EEF18A21B9700DEE57E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38793EF318A21B9700DEE57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		38793EF418A21B9700DEE57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38793EF618A21B9700DEE57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebGLIOS/WebGLIOS-Prefix.pch";
+				INFOPLIST_FILE = "WebGLIOS/WebGLIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38793EF718A21B9700DEE57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebGLIOS/WebGLIOS-Prefix.pch";
+				INFOPLIST_FILE = "WebGLIOS/WebGLIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		38793EF918A21B9700DEE57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebGLIOS.app/WebGLIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebGLIOS/WebGLIOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WebGLIOSTests/WebGLIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		38793EFA18A21B9700DEE57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebGLIOS.app/WebGLIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebGLIOS/WebGLIOS-Prefix.pch";
+				INFOPLIST_FILE = "WebGLIOSTests/WebGLIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38793EC418A21B9700DEE57E /* Build configuration list for PBXProject "WebGLIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38793EF318A21B9700DEE57E /* Debug */,
+				38793EF418A21B9700DEE57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38793EF518A21B9700DEE57E /* Build configuration list for PBXNativeTarget "WebGLIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38793EF618A21B9700DEE57E /* Debug */,
+				38793EF718A21B9700DEE57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38793EF818A21B9700DEE57E /* Build configuration list for PBXNativeTarget "WebGLIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38793EF918A21B9700DEE57E /* Debug */,
+				38793EFA18A21B9700DEE57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38793EC118A21B9700DEE57E /* Project object */;
+}
